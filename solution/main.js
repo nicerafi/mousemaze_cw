@@ -337,7 +337,7 @@ function load_gltf() {
   const loader = new GLTFLoader();
   loader.load(
     // resource URL
-    '../assets/models/cheese3.glb',
+    '../assets/models/cheese.glb',
     // called when the resource is loaded
     function (gltf) {
       gltf.scene.scale.set(3, 3, 3);
@@ -367,7 +367,7 @@ function load_gltf() {
 
   loader.load(
     // resource URL
-    '../assets/models/rat3.glb',
+    '../assets/models/rat.glb',
     // called when the resource is loaded
     function (gltf) {
       gltf.scene.scale.set(5, 5, 5);
@@ -397,7 +397,7 @@ function load_gltf() {
 
   loader.load(
     // resource URL
-    '../assets/models/mousetrap2.glb',
+    '../assets/models/mousetrap.glb',
     // called when the resource is loaded
     function (gltf) {
       gltf.scene.scale.set(8, 8, 8);
