@@ -242,6 +242,17 @@ class MazeBuilder {
 
 }
 
+// TEXTURES FROM
+// Forest Ground: https://3dtextures.me/2020/03/20/ground-forest-003/
+// Wood Plank: https://ambientcg.com/view?id=Planks012
+// HDRI Sky: https://www.hdri-hub.com/hdrishop/freesamples/freehdri/item/76-hdr-sky-cloudy
+
+// SOUNDS FROM
+// cheese_collect.wav: https://freesound.org/people/ProjectsU012/sounds/341695/
+// fell_down.wav: https://freesound.org/people/MentosLat/sounds/417486/
+
+
+
 import * as THREE from '../libraries/build/three.module.js';
 import { GLTFLoader } from "../libraries/loaders_controls/GLTFLoader.js";
 import { PointerLockControls } from '../libraries/loaders_controls/PointerLockControls.js';
